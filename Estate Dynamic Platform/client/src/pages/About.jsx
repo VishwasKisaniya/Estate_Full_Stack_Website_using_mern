@@ -2,52 +2,23 @@ import React from 'react';
 
 export default function About() {
   return (
-    <div className='bg-gray-100 min-h-screen'>
-      {/* Introduction Section */}
-      <div className='bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 p-10 text-white text-center'>
-        <h1 className='text-4xl font-bold mb-4'>About Us</h1>
-        <p className='text-xl mb-6'>Learn more about our journey, mission, and the amazing team behind our success.</p>
-      </div>
-
-      {/* Our Mission */}
-      <div className='max-w-6xl mx-auto p-6'>
-        <h2 className='text-3xl font-semibold text-gray-800 text-center my-8'>Our Mission</h2>
-        <p className='text-gray-600 text-lg text-center mb-8'>
-          Our mission is to deliver high-quality solutions that bring value to our users and make their lives easier. We are committed to innovation, excellence, and integrity in everything we do.
+    <div className='bg-gradient-to-r from-blue-50 to-blue-100 py-20 px-4'>
+      <div className='max-w-6xl mx-auto bg-white shadow-lg rounded-lg p-8'>
+        <h1 className='text-4xl font-bold mb-6 text-blue-800'>Vishwas Kisaniya Estate</h1>
+        <p className='mb-6 text-zinc-700'>
+          Vishwas Kisaniya Estate is a leading real estate agency that specializes in helping clients buy, sell, and rent properties in the most desirable neighborhoods. Our team of experienced agents is dedicated to providing exceptional service and making the buying and selling process as smooth as possible.
         </p>
-      </div>
-
-      {/* Team Members Section
-      <div className='max-w-6xl mx-auto p-6'>
-        <h2 className='text-3xl font-semibold text-gray-800 text-center my-8'>Meet the Team</h2>
-        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6'>
-          <div className='bg-white p-5 rounded-lg shadow-md text-center'>
-            <img src='https://via.placeholder.com/150' alt='Team Member' className='rounded-full mx-auto mb-4 w-24 h-24 object-cover'/>
-            <h3 className='text-2xl font-semibold mb-2'>John Doe</h3>
-            <p className='text-gray-600'>CEO & Founder</p>
-          </div>
-          <div className='bg-white p-5 rounded-lg shadow-md text-center'>
-            <img src='https://via.placeholder.com/150' alt='Team Member' className='rounded-full mx-auto mb-4 w-24 h-24 object-cover'/>
-            <h3 className='text-2xl font-semibold mb-2'>Jane Smith</h3>
-            <p className='text-gray-600'>Chief Technology Officer</p>
-          </div>
-          <div className='bg-white p-5 rounded-lg shadow-md text-center'>
-            <img src='https://via.placeholder.com/150' alt='Team Member' className='rounded-full mx-auto mb-4 w-24 h-24 object-cover'/>
-            <h3 className='text-2xl font-semibold mb-2'>Alice Johnson</h3>
-            <p className='text-gray-600'>Head of Marketing</p>
-          </div>
+        <p className='mb-6 text-zinc-700'>
+          Our mission is to help our clients achieve their real estate goals by providing expert advice, personalized service, and a deep understanding of the local market. Whether you are looking to buy, sell, or rent a property, we are here to help you every step of the way.
+        </p>
+        <p className='mb-6 text-zinc-700'>
+          Our team of agents has a wealth of experience and knowledge in the real estate industry, and we are committed to providing the highest level of service to our clients. We believe that buying or selling a property should be an exciting and rewarding experience, and we are dedicated to making that a reality for each and every one of our clients.
+        </p>
+        <div className='flex justify-center'>
+          <button className='text-blue-600 text-white py-2 px-6 rounded-lg shadow hover:bg-blue-700 transition duration-300'>
+            Learn More
+          </button>
         </div>
-      </div> */}
-
-      {/* Call to Action */}
-      <div className='bg-slate-300 p-10 text-center'>
-        <h2 className='text-3xl font-semibold text-gray-800 mb-4'>Join Our Team!</h2>
-        <p className='text-gray-600 mb-6'>
-          We are always looking for talented and passionate individuals to join our team. If you are interested in working with us, please reach out!
-        </p>
-        <button className='bg-purple-600 text-white px-4 py-2 rounded-full font-semibold hover:bg-purple-700 transition duration-300'>
-          Contact Us
-        </button>
       </div>
     </div>
   );
